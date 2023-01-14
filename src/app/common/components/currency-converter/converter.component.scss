@@ -1,0 +1,33 @@
+.table {
+  width: 80%;
+  margin: 30px auto;
+
+  .top-menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-container {
+    div {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    display: inline-block;
+    margin-bottom: 25px;
+    right: 0;
+  }
+  .column {
+    display: flex;
+    align-items: center;
+  }
+}
+
+:host ::ng-deep .p-message-custom {
+  background-color: #E1CFE7;
+  border: solid #8A427A;
+  border-width: 0 0 0 6px;
+  color: #2c1e30;
+}
+
+:host ::ng-deep .p-message-close-icon {
+  color: #2c1e30;
+}
